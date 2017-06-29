@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title></title>
-    <link rel="stylesheet" href="css/first-javascript.css" />
+    <link rel="stylesheet" href="css/second-javascript.css" />
   </head>
   <body>
-
-    <button onClick="document.body.style.backgroundColor='#FF0000'">hey</button>
-    
+    <button>Name</button>
+    <input id=myName type="text" name="Ecrit ton nom" value="">
     <script type="text/javascript">
-      var saisie = prompt("Nom")
-      alert("Hi, my name is "+ saisie)
+      console.log(document.getElementById('myName').value);
     </script>
+
+
   </body>
 </html>
