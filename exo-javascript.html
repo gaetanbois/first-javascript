@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link rel="stylesheet" href="css/exo-javascript.css" />
+    <script type="text/javascript" src="js/exo-script.js"></script>
+    <link href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="vendor/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+  <div class="container">
+    <form class="" action="index.html" method="post">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="form-group">
+            <label for="firstname">Prénom</label>
+            <input type="text" class="form-control" id="firstname" placeholder="Prénom">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-group">
+            <label for="lastname">Bois</label>
+            <input type="text" class="form-control" id="lastname" placeholder="Nom">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-group">
+            <label for="lastname">Age</label>
+            <input type="number" class="form-control" id="age" placeholder="Age">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="radio">
+          <input type="radio" name="sexe" id="sexe" value="Masculin" checked>
+          <label>Masculin</label>
+          </div>
+          <div class="radio">
+          <input type="radio" name="sexe" id="sexe" value="Féminin" >
+          <label>Féminin</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="email">Mail</label>
+            <input type="email" class="form-control" id="email" placeholder="Email">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+          <label for="password">Mot de passe</label>
+          <input type="password" class="form-control" id="password" placeholder="Mot de passe">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <button onclick="printForm()" type="button" name="button">Go !!</button>
+      <div id="box"></div>
+    </form>
+  </body>
+</html>
